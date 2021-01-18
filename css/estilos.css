@@ -1,0 +1,104 @@
+body{
+    display: block;
+    overflow-x: hidden;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+.header{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(31, 30, 30, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(../img/fondo.jpg);
+    background-repeat: no-repeat; /*Genera que la imagen no se repita en caso sea pequeña*/
+    background-size: cover; /*La adapta al tamaño del fondo para que no se vea pequeña*/
+    background-position: center;
+}
+
+nav{
+    margin-top: 20px;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(67, 130, 167);
+}
+
+nav ul li a{
+    color: white;
+    font-size: 15px;
+    margin: auto 10px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    color: rgb(127, 123, 124);
+}
+
+footer{
+    background: rgb(47, 91, 116);
+    padding-bottom: 0.1;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.contactanos{
+    /* width: 40%; */
+    margin-left: 200px;
+    color: white;
+}
+
+/* .brand{
+    color: white;
+    font-weight: 400px;
+    font-size: 24px;
+} */
+
+/* .fut{
+    margin-top: 20px;
+    width: 20%;
+} */
+
+.mail{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.social-media{
+    /* width: 50%; */
+    margin-top: 45px;
+    display: flex;
+    margin-right: 900px;
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon:hover{ /*Efecto para que cuando se pase el mouse por encima cambie de color el icono*/
+    background: rgb(204, 204, 204);
+    color: rgb(47, 91, 116);
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+
