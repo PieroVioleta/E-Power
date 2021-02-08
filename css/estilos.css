@@ -7,29 +7,41 @@ body{
     scroll-behavior: smooth;
 }
 
+.logo{
+    width: 130px;
+    height: 50px;
+    margin-right: 80px;
+}
+
 .header{
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(31, 30, 30, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(../img/fondo.jpg);
+    /*background-color: #004aad;*/
+    background-color: rgba(37,67,120,255);
+    /*background-color: #f0e640; AMARILLO
+    background-color: #d6c9b6; GRIS*/
+    background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat; /*Genera que la imagen no se repita en caso sea pequeña*/
     background-size: cover; /*La adapta al tamaño del fondo para que no se vea pequeña*/
     background-position: center;
+
 }
 
 nav{
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-left: 100px;
 }
 
 .navbar-brand{
     font-size: 24px;
     text-transform: uppercase;
     font-weight: 700;
-    color: rgb(67, 130, 167);
+    color: rgb(255, 255, 255);
 }
 
 nav ul li a{
     color: white;
     font-size: 15px;
-    margin: auto 10px;
+    margin: auto 15px;
     text-transform: uppercase;
 }
 
@@ -37,8 +49,71 @@ nav ul li a:hover{
     color: rgb(127, 123, 124);
 }
 
+.title{
+    color: #fff;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 300px 500px;
+}
+
+.slogan{
+    margin-left: 5px;
+}
+
+.news{
+    margin-bottom: 200px;
+}
+
+.newsTitle{
+    font-weight: 400;
+    margin-left: 620px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.newsLeft{
+    width: 45%;
+    background-color: #252b3a;
+    margin-left: 50px;
+    float: left;
+}
+
+.newsRight{
+    width: 45%;
+    background-color: #252b3a;
+    justify-content: flex-end;
+    margin-right: 50px;
+    float: right;
+}
+
+.newsLeftText{
+    color: #fff;
+    margin-left: 10px;
+}
+
+.newsRightText{
+    color: #fff;
+    margin-left: 10px;
+}
+
+h4{
+    color: #fff;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+/* .packs{
+    margin-left: 5px;
+}
+
+.offers{
+    margin-left: 5px;
+} */
+
 footer{
-    background: rgb(47, 91, 116);
+    /* background: #d6c9b6; */
+    background: rgba(28,28,26,255);
     padding-bottom: 0.1;
 }
 
@@ -99,6 +174,7 @@ footer{
 .social-media-icon i{
     font-size: 30px;
     line-height: 60px;
+    margin-bottom: 10px;
 }
 
 
