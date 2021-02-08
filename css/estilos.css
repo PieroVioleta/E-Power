@@ -38,7 +38,7 @@ nav{
 
 nav ul li a{
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     margin: auto 15px;
     text-transform: uppercase;
 }
@@ -47,12 +47,11 @@ nav ul li a:hover{
     color: rgb(127, 123, 124);
 }
 
-.title{
-    color: #fff;
+.main-logo{
     width: 90%;
     max-width: 1200px;
     margin: auto;
-    padding: 300px 500px;
+    padding: 300px 10px;
 }
 
 .slogan{
@@ -60,9 +59,14 @@ nav ul li a:hover{
 }
 
 .news{
-    margin-bottom: 200px;
+    background-color: #080808;
+    padding-bottom: 100px;
 }
 
+.news2 {
+    background-color: rgb(198, 192, 204);
+    margin-bottom: 200px;
+}
 .newsTitle{
     font-weight: 400;
     margin-left: 620px;
@@ -71,20 +75,19 @@ nav ul li a:hover{
 }
 
 .newsLeft{
-    width: 45%;
-    background-color: #252b3a;
-    margin-left: 50px;
-    float: left;
+    background-color: #080808;
 }
 
 .newsRight{
-    width: 45%;
-    background-color: #252b3a;
-    justify-content: flex-end;
-    margin-right: 50px;
-    float: right;
+    background-color: #080808;
+}
+.newsLeft2{
+    background-color: rgb(198, 192, 204);
 }
 
+.newsRight2{
+    background-color: rgb(198, 192, 204);
+}
 .newsLeftText{
     color: #fff;
     margin-left: 10px;
