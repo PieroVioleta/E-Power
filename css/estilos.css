@@ -19,7 +19,7 @@ body{
     background-color: rgba(37,67,120,255);
     /*background-color: #f0e640; AMARILLO
     background-color: #d6c9b6; GRIS*/
-    background-image: url(../img/fondo.jpg);
+    background-image: url(../img/home-background.jpg);
     background-repeat: no-repeat; /*Genera que la imagen no se repita en caso sea pequeña*/
     background-size: cover; /*La adapta al tamaño del fondo para que no se vea pequeña*/
     background-position: center;
@@ -176,5 +176,3 @@ footer{
     line-height: 60px;
     margin-bottom: 10px;
 }
-
-
