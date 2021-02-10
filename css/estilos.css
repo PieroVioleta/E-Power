@@ -1,6 +1,8 @@
 body{
     display: block;
     overflow-x: hidden;
+    background-image: url(../img/test2.jpg);
+    background-repeat: repeat;
 }
 
 :root{
@@ -14,13 +16,13 @@ body{
 .header{
     height: 100vh;
     /*background-color: #004aad;*/
-    background-color: rgba(37,67,120,255);
+    /* background-color: rgba(37,67,120,255); */
     /*background-color: #f0e640; AMARILLO
     background-color: #d6c9b6; GRIS*/
-    background-image: url(../img/home-background.jpg);
+    /* background-image: url(../img/home-background.jpg);
     background-repeat: no-repeat; /*Genera que la imagen no se repita en caso sea pequeña*/
-    background-size: cover; /*La adapta al tamaño del fondo para que no se vea pequeña*/
-    background-position: center;
+    /* background-size: cover; /*La adapta al tamaño del fondo para que no se vea pequeña*/
+    /* background-position: center; */
 
 }
 
@@ -71,12 +73,12 @@ nav ul li a:hover{
 }
 
 .news{
-    background-color: #080808;
+    /* background-color: #080808; */
     padding-bottom: 100px;
 }
 
 .news2 {
-    background-color: rgb(198, 192, 204);
+    /* background-color: rgb(198, 192, 204); */
     margin-bottom: 200px;
 }
 .newsTitle{
@@ -87,18 +89,18 @@ nav ul li a:hover{
 }
 
 .newsLeft{
-    background-color: #080808;
+    /* background-color: #080808; */
 }
 
 .newsRight{
-    background-color: #080808;
+    /* background-color: #080808; */
 }
 .newsLeft2{
-    background-color: rgb(198, 192, 204);
+    /* background-color: rgb(198, 192, 204); */
 }
 
 .newsRight2{
-    background-color: rgb(198, 192, 204);
+    /* background-color: rgb(198, 192, 204); */
 }
 .newsLeftText{
     color: #fff;
